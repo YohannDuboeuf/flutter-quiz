@@ -27,30 +27,30 @@ class _MyAPPState extends State<MyAPP> {
 
   final _questions = [
     {
-      'questionText': 'What\'s your favorite color?',
+      'questionText': 'Quelle est la capital de la France ?',
       'answers': [
-        {'text': 'Black', 'score': 5},
-        {'text': 'Red', 'score': 3},
-        {'text': 'Green', 'score': 2},
-        {'text': 'White', 'score': 1},
+        {'text': 'Paris ', 'score': 1},
+        {'text': 'Lyon', 'score': 0},
+        {'text': 'Feurs', 'score': 0},
+        {'text': 'Bordeaux ', 'score': 0},
       ],
     },
     {
-      'questionText': 'What\'s your favorite animal?',
+      'questionText': 'Quelle est la capital du Canada ?',
       'answers': [
-        {'text': 'Cat', 'score': 5},
-        {'text': 'Dog', 'score': 3},
-        {'text': 'Rabbit', 'score': 2},
-        {'text': 'Lion', 'score': 1},
+        {'text': 'Montréal', 'score': 0},
+        {'text': 'Vancouver', 'score': 0},
+        {'text': 'Ottawa', 'score': 1},
+        {'text': 'Toronto', 'score': 0},
       ],
     },
     {
-      'questionText': 'What\'s your favorite sport?',
+      'questionText': 'Quelle est la capital des États-Unis ?',
       'answers': [
-        {'text': 'Foot', 'score': 5},
-        {'text': 'Rugby', 'score': 3},
-        {'text': 'Boxe', 'score': 2},
-        {'text': 'Course', 'score': 1},
+        {'text': 'New York', 'score': 0},
+        {'text': 'Washington', 'score': 1},
+        {'text': 'Las vegas', 'score': 0},
+        {'text': 'Los Angeles', 'score': 0},
       ],
     },
   ];

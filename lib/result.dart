@@ -9,9 +9,9 @@ class Result extends StatelessWidget {
   String get resusltPhrase {
     var resultText = 'You did it';
 
-    if (resultScore >= 8) {
+    if (resultScore == 3) {
       resultText = 'You have a great score !';
-    } else if (resultScore >= 10) {
+    } else if (resultScore == 2) {
       resultText = "Really good score !!";
     } else {
       resultText = "You are bad ...";
